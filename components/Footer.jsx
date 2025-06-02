@@ -53,7 +53,7 @@ export default function Footer() {
         </p>
 
         <div className="mt-4 text-center text-xs text-gray-400">
-          <p>This website is for fun purposes only. Not a life advice.</p>
+          <p>This website is for fun purposes only. Not a life advice. Built on Ethereum blockchain.</p>
           <p className="mt-1">Clipcoin Contract: <span className="font-mono">0x...</span> <button className="text-blue-500 hover:underline">Copy</button></p>
         </div>
       </div>

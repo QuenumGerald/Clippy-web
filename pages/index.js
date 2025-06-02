@@ -20,8 +20,9 @@ export default function Home() {
     <div className="min-h-screen flex flex-col">
       <Head>
         <title>Clippy Token - The Return of the Paperclip on Blockchain</title>
+        <link rel="icon" type="image/png" sizes="32x32" href="/images/logo.png" />
         <meta name="description" content="Windows called. I'm busy with blockchain now. Join the revolution with Clippy Token - the most nostalgic crypto experience." />
-        <link rel="icon" href="/favicon.ico" />
+
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
       </Head>
 
@@ -178,7 +179,7 @@ export default function Home() {
                       `}
                     </style>
                     <div id="dexscreener-embed">
-                      <iframe 
+                      <iframe
                         src="https://dexscreener.com/ethereum/0xcFB26DF385D790Aa7E417394EC1196a3Bd56Aa8C?embed=1&loadChartSettings=0&trades=0&tabs=0&info=0&chartLeftToolbar=0&chartTheme=dark&theme=dark&chartStyle=0&chartType=usd&interval=15"
                         title="Clipcoin Price Chart"
                         allowFullScreen
